@@ -2,20 +2,21 @@
 
 Summary: This project discusses different validation techniques. We will discuss how to correctly measure model quality and avoid leaks. We also consider several ways to optimize model hyperparameters and various methods of feature selection.
 
-💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
 
 ## Contents
 
 
-1. [Chapter I. Preamble](#chapter-i-preamble)
-2. [Chapter II. Introduction](#chapter-ii-introduction)
-    2.1. [One fold validation](#one-fold-validation)
-    2.2. [Cross-validation (N Fold Validation)](#cross-validation-n-fold-validation)
-    2.3. [Hyperparameter optimization](#hyperparameter-optimization)
-    2.4. [Feature selection](#feature-selection)
-3. [Chapter III. Goal](#chapter-iii-goal)
-4. [Chapter IV. Instructions](#chapter-iv-instructions)
-5. [Chapter V. Task](#chapter-v-task)
+- [Model quality estimation](#model-quality-estimation)
+  - [Contents](#contents)
+  - [Chapter I. Preamble](#chapter-i-preamble)
+  - [Chapter II. Introduction](#chapter-ii-introduction)
+    - [One fold validation](#one-fold-validation)
+    - [Cross-validation (N Fold Validation)](#cross-validation-n-fold-validation)
+    - [Hyperparameter optimization](#hyperparameter-optimization)
+    - [Feature selection](#feature-selection)
+  - [Chapter III. Goal](#chapter-iii-goal)
+  - [Chapter IV. Instructions](#chapter-iv-instructions)
+  - [Chapter V. Task](#chapter-v-task)
 
 ## Chapter I. Preamble
 
@@ -209,9 +210,4 @@ In this chapter, we will implement all the validation schemes, some hyperparamet
    5. Estimate metrics and compare approaches.
    6. Run optuna on one of the cross-validation schemes.
 
-### Submission
 
-Save your code in Python JupyterNotebook. Your peer will load it and compare it to the basic solution. Your code should contain answers to all mandatory questions. The additional task is up to you.
-
-
->Please leave feedback on the project in the [feedback form.](https://forms.yandex.ru/cloud/646b46f7d046882ee5a0b173/) 
